@@ -1,0 +1,79 @@
+
+# Command Registers
+LPMS_ACK                    = 0
+LPMS_NACK                   = 1
+
+LPMS_UPDATE_FIRMWARE        = 2
+LPMS_UPDATE_IAP             = 3
+
+LPMS_GET_CONFIG             = 4
+LPMS_GET_STATUS             = 5
+
+LPMS_GOTO_COMMAND_MODE      = 6
+LPMS_GOTO_STREAM_MODE       = 7
+#LPMS_GOTO_SLEEP_MODE        = 8
+LPMS_GET_SENSOR_DATA        = 9
+LPMS_SET_TRANSMIT_DATA      = 10
+LPMS_SET_STREAM_FREQ        = 11
+LPMS_WRITE_REGISTERS        = 15
+LPMS_RESET_FACTORY_VALUE    = 16
+LPMS_START_MAG_CALIBRATION  = 17
+LPMS_SET_FILTER_MODE        = 41
+LPMS_SET_IMU_ID             = 20
+LPMS_SET_ACC_RANGE          = 31
+
+RESTORE_FACTORY_VALUE       = 16
+
+GET_FIRMWARE_VERSION        = 47
+SET_TIME_STAMP              = 66
+
+LPMS_SET_LPBUS_DATA_MODE    = 75
+
+LPMS_SET_UART_BAUDRATE      = 84
+
+GET_BATTERY_LEVEL           = 87
+GET_BATTERY_VOLTAGE         = 88
+GET_CHARGING_STATUS         = 89
+
+SET_DEVICE_NAME             = 91
+GET_DEVICE_NAME             = 92
+
+SET_LED_COLOR               = 93
+GET_LED_COLOR               = 94
+SET_LED_WAVEFORM            = 95
+
+START_SYNC                  = 96
+STOP_SYNC                   = 97
+GET_PING                    = 98
+
+GET_TEMPERATURE             = 99
+
+# Debug Flash Logging
+START_DEBUG_LOGGING         = 108
+STOP_DEBUG_LOGGING          = 109
+CLEAR_DEBUG_LOG             = 110
+FULL_FLASH_ERASE            = 111
+GET_DEBUG_LOGGING_STATUS    = 112
+GET_DEBUG_LOG_SIZE          = 113
+GET_DEBUG_LOG               = 114
+
+
+LPMS_LPBUS_DATA_MODE_32     = 0
+LPMS_LPBUS_DATA_MODE_16     = 1
+
+LPMS_STREAM_FREQ = {
+    0:'5Hz',
+    1:'10Hz',
+    2:'25Hz',
+    3:'50Hz',
+    4:'100Hz',
+    5:'200Hz',
+    6:'400Hz',
+}
+LPMS_STREAM_FREQ_5HZ    = 5
+LPMS_STREAM_FREQ_10HZ   = 10
+LPMS_STREAM_FREQ_25HZ   = 25
+LPMS_STREAM_FREQ_50HZ   = 50
+LPMS_STREAM_FREQ_100HZ  = 100
+LPMS_STREAM_FREQ_200HZ  = 200
+LPMS_STREAM_FREQ_400HZ  = 400

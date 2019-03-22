@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+    <param name="Odrive_ready_flag" value="0" />
+    <node pkg="super_minitaur" type="Odrive_driver_.py" name="Odrive_driver" output="screen"/>
+    <node pkg="super_minitaur" type="imu_driver.py" name="imu_driver"/>
+    <node pkg="super_minitaur" type="stm32_driver.py" name="stm32_driver"/>
+    <!--node pkg="super_minitaur" type="camera.py" name="camera_driver"/-->
+    <node pkg="super_minitaur" type="working_flow_v1.py" name="Controller" output="screen"/>
+</launch>

@@ -1,0 +1,6 @@
+string odrive_index
+int32 pos_gain
+float32 vel_gain
+float32 vel_integrator_gain
+int32 vel_limit
+int32 current_limit

@@ -1,0 +1,16 @@
+Bus 002 Device 002: ID 8087:8000 Intel Corp. 
+Bus 002 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 001 Device 002: ID 8087:8008 Intel Corp. 
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 004 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 003 Device 041: ID 1209:0d32 InterBiometrics 
+Bus 003 Device 042: ID 1209:0d32 InterBiometrics 
+Bus 003 Device 050: ID 1209:0d32 InterBiometrics 
+Bus 003 Device 049: ID 1209:0d32 InterBiometrics 
+Bus 003 Device 018: ID 05e3:0610 Genesys Logic, Inc. 4-port hub
+Bus 003 Device 017: ID 10c4:ea60 Cygnal Integrated Products, Inc. CP210x UART Bridge / myAVR mySmartUSB light
+Bus 003 Device 014: ID 05e3:0610 Genesys Logic, Inc. 4-port hub
+Bus 003 Device 004: ID 8087:07dc Intel Corp. 
+Bus 003 Device 003: ID 174f:14b8 Syntek 
+Bus 003 Device 002: ID 148f:7601 Ralink Technology, Corp. MT7601U Wireless Adapter
+Bus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub

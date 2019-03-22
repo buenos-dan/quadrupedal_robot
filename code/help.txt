@@ -1,1 +1,0 @@
-this file concludes a ROS package.
