@@ -1,6 +1,7 @@
-STATE_GRAPH = {"IDLE":["WALK","JUMP"],
-               "WALK":["IDLE"],
-               "JUMP":["IDLE"],}
+STATE_GRAPH = {"IDLE":["WALK","JUMP","TURN"],
+               "TROT":["IDLE","TURN"],
+               "JUMP":["IDLE"],
+               "TURN":["TROT","IDLE"]}
 
 def find_shortest_path(graph,start,end,path = []):
     path = path + [start]
@@ -18,9 +19,9 @@ def find_shortest_path(graph,start,end,path = []):
     return shortest
 
 if __name__=="__main__":
-    print find_shortest_path(STATE_GRAPH,"WALK","JUMP")
+    print find_shortest_path(STATE_GRAPH,"TROT","JUMP")
     print find_shortest_path(STATE_GRAPH,"IDLE","JUMP")
-    print find_shortest_path(STATE_GRAPH,"JUMP","WALK")
+    print find_shortest_path(STATE_GRAPH,"JUMP","TURN")
 
 
 
